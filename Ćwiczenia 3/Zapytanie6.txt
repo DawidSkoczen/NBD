@@ -1,0 +1,2 @@
+MATCH (actors:Person)-[:ACTED_IN]-(films:Movie)
+RETURN  actors ,count(films) as ilosc_filmow ;

@@ -1,0 +1,3 @@
+MATCH (hugo:Person)-[:ACTED_IN]-(film:Movie)-[:ACTED_IN]-(actors:Person) 
+WHERE hugo.name='Hugo Weaving' 
+RETURN distinct actors ;

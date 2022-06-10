@@ -1,0 +1,10 @@
+{ 
+    "_id" : "Female", 
+    "sredni_wzrost" : NumberDecimal("166.8126091370558375634517766497462"), 
+    "srednia_waga" : NumberDecimal("70.11331573604060913705583756345178")
+}
+{ 
+    "_id" : "Male", 
+    "sredni_wzrost" : NumberDecimal("166.7357581263880476478901675752069"), 
+    "srednia_waga" : NumberDecimal("70.01178275792449020795477488390874")
+}

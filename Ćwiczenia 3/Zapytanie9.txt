@@ -1,0 +1,56 @@
+Create(Captain:Movie {
+tagline: "First strike",
+title: "Captain America: The First Avenger",
+released: 2011
+  } )
+
+CREATE (n:Person {born: 1950, name: "Joe Johnston"});
+CREATE (n:Person {born: 1970, name: "Christopher Markus"});
+CREATE (n:Person {born: 1981, name: "Chris Evans"});
+CREATE (n:Person {born: 1948, name: "Samuel L. Jackson"});
+
+MATCH
+  (a:Person),
+  (b:Movie)
+WHERE a.name = 'Hugo Weaving' AND b.title = 'Captain America: The First Avenger'
+CREATE (a)-[r:ACTED_IN]->(b)
+RETURN type(r)
+
+MATCH
+  (a:Person),
+  (b:Movie)
+WHERE a.name = 'Chris Evans' AND b.title = 'Captain America: The First Avenger'
+CREATE (a)-[r:ACTED_IN]->(b)
+RETURN type(r)
+
+MATCH
+  (a:Person),
+  (b:Movie)
+WHERE a.name = 'Samuel L. Jackson' AND b.title = 'Captain America: The First Avenger'
+CREATE (a)-[r:ACTED_IN]->(b)
+RETURN type(r)
+
+MATCH
+  (a:Person),
+  (b:Movie)
+WHERE a.name = 'Joe Johnston' AND b.title = 'Captain America: The First Avenger'
+CREATE (a)-[r:DIRECTED]->(b)
+RETURN type(r)
+
+
+MATCH
+  (a:Person),
+  (b:Movie)
+WHERE a.name = 'Christopher Markus' AND b.title = 'Captain America: The First Avenger'
+CREATE (a)-[r:WROTE]->(b)
+RETURN type(r)
+
+
+MATCH (m:Movie)-[:ACTED_IN]-(a:Person), (m:Movie)-[:DIRECTED]-(d:Person), (m:Movie)-[:WROTE]-(w:Person)
+Where m.title = 'Captain America: The First Avenger'
+RETURN m,a,d,w 
+
+
+
+
+

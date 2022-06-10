@@ -1,0 +1,365 @@
+{ 
+    "_id" : "IRR", 
+    "suma" : NumberDecimal("26504.24"), 
+    "srednia" : NumberDecimal("4417.373333333333333333333333333333")
+}
+{ 
+    "_id" : "BOB", 
+    "suma" : NumberDecimal("5263.3"), 
+    "srednia" : NumberDecimal("5263.3")
+}
+{ 
+    "_id" : "HRK", 
+    "suma" : NumberDecimal("24354.82"), 
+    "srednia" : NumberDecimal("4870.964")
+}
+{ 
+    "_id" : "ETB", 
+    "suma" : NumberDecimal("5436.11"), 
+    "srednia" : NumberDecimal("5436.11")
+}
+{ 
+    "_id" : "BWP", 
+    "suma" : NumberDecimal("4076.29"), 
+    "srednia" : NumberDecimal("4076.29")
+}
+{ 
+    "_id" : "NIO", 
+    "suma" : NumberDecimal("9971.28"), 
+    "srednia" : NumberDecimal("4985.64")
+}
+{ 
+    "_id" : "PEN", 
+    "suma" : NumberDecimal("18644.94"), 
+    "srednia" : NumberDecimal("4661.235")
+}
+{ 
+    "_id" : "NGN", 
+    "suma" : NumberDecimal("24946.23"), 
+    "srednia" : NumberDecimal("4157.705")
+}
+{ 
+    "_id" : "JPY", 
+    "suma" : NumberDecimal("60944.74"), 
+    "srednia" : NumberDecimal("5078.728333333333333333333333333333")
+}
+{ 
+    "_id" : "AMD", 
+    "suma" : NumberDecimal("24609.33"), 
+    "srednia" : NumberDecimal("4921.866")
+}
+{ 
+    "_id" : "ISK", 
+    "suma" : NumberDecimal("4316.41"), 
+    "srednia" : NumberDecimal("4316.41")
+}
+{ 
+    "_id" : "MYR", 
+    "suma" : NumberDecimal("4781.12"), 
+    "srednia" : NumberDecimal("4781.12")
+}
+{ 
+    "_id" : "NPR", 
+    "suma" : NumberDecimal("5792.26"), 
+    "srednia" : NumberDecimal("5792.26")
+}
+{ 
+    "_id" : "PHP", 
+    "suma" : NumberDecimal("118606.28"), 
+    "srednia" : NumberDecimal("4941.928333333333333333333333333333")
+}
+{ 
+    "_id" : "CZK", 
+    "suma" : NumberDecimal("37156.42"), 
+    "srednia" : NumberDecimal("4644.5525")
+}
+{ 
+    "_id" : "IDR", 
+    "suma" : NumberDecimal("323922.59"), 
+    "srednia" : NumberDecimal("4907.918030303030303030303030303030")
+}
+{ 
+    "_id" : "CDF", 
+    "suma" : NumberDecimal("12228.8"), 
+    "srednia" : NumberDecimal("6114.4")
+}
+{ 
+    "_id" : "SEK", 
+    "suma" : NumberDecimal("70840.19"), 
+    "srednia" : NumberDecimal("5060.013571428571428571428571428571")
+}
+{ 
+    "_id" : "THB", 
+    "suma" : NumberDecimal("23021.96"), 
+    "srednia" : NumberDecimal("4604.392")
+}
+{ 
+    "_id" : "NOK", 
+    "suma" : NumberDecimal("4773.66"), 
+    "srednia" : NumberDecimal("4773.66")
+}
+{ 
+    "_id" : "PLN", 
+    "suma" : NumberDecimal("90770.78"), 
+    "srednia" : NumberDecimal("5042.821111111111111111111111111111")
+}
+{ 
+    "_id" : "CNY", 
+    "suma" : NumberDecimal("470700.38"), 
+    "srednia" : NumberDecimal("4954.740842105263157894736842105263")
+}
+{ 
+    "_id" : "XAF", 
+    "suma" : NumberDecimal("14094.66"), 
+    "srednia" : NumberDecimal("4698.22")
+}
+{ 
+    "_id" : "EGP", 
+    "suma" : NumberDecimal("5579.3"), 
+    "srednia" : NumberDecimal("5579.3")
+}
+{ 
+    "_id" : "ARS", 
+    "suma" : NumberDecimal("23242.00"), 
+    "srednia" : NumberDecimal("4648.40")
+}
+{ 
+    "_id" : "PKR", 
+    "suma" : NumberDecimal("18938.00"), 
+    "srednia" : NumberDecimal("4734.50")
+}
+{ 
+    "_id" : "KRW", 
+    "suma" : NumberDecimal("13379.82"), 
+    "srednia" : NumberDecimal("6689.91")
+}
+{ 
+    "_id" : "PYG", 
+    "suma" : NumberDecimal("4874.69"), 
+    "srednia" : NumberDecimal("4874.69")
+}
+{ 
+    "_id" : "BRL", 
+    "suma" : NumberDecimal("49632.02"), 
+    "srednia" : NumberDecimal("4512.001818181818181818181818181818")
+}
+{ 
+    "_id" : "CLP", 
+    "suma" : NumberDecimal("21008.95"), 
+    "srednia" : NumberDecimal("5252.2375")
+}
+{ 
+    "_id" : "MGA", 
+    "suma" : NumberDecimal("14560.99"), 
+    "srednia" : NumberDecimal("4853.663333333333333333333333333333")
+}
+{ 
+    "_id" : "XOF", 
+    "suma" : NumberDecimal("17882.05"), 
+    "srednia" : NumberDecimal("5960.683333333333333333333333333333")
+}
+{ 
+    "_id" : "COP", 
+    "suma" : NumberDecimal("19746.73"), 
+    "srednia" : NumberDecimal("4936.6825")
+}
+{ 
+    "_id" : "KZT", 
+    "suma" : NumberDecimal("3788.95"), 
+    "srednia" : NumberDecimal("3788.95")
+}
+{ 
+    "_id" : "LYD", 
+    "suma" : NumberDecimal("8764.99"), 
+    "srednia" : NumberDecimal("4382.495")
+}
+{ 
+    "_id" : "ZMW", 
+    "suma" : NumberDecimal("5569.56"), 
+    "srednia" : NumberDecimal("5569.56")
+}
+{ 
+    "_id" : "UZS", 
+    "suma" : NumberDecimal("3573.03"), 
+    "srednia" : NumberDecimal("3573.03")
+}
+{ 
+    "_id" : "CUP", 
+    "suma" : NumberDecimal("15017.34"), 
+    "srednia" : NumberDecimal("5005.78")
+}
+{ 
+    "_id" : "DOP", 
+    "suma" : NumberDecimal("20674.74"), 
+    "srednia" : NumberDecimal("5168.685")
+}
+{ 
+    "_id" : "TJS", 
+    "suma" : NumberDecimal("4087.71"), 
+    "srednia" : NumberDecimal("4087.71")
+}
+{ 
+    "_id" : "ILS", 
+    "suma" : NumberDecimal("16295.49"), 
+    "srednia" : NumberDecimal("5431.83")
+}
+{ 
+    "_id" : "VUV", 
+    "suma" : NumberDecimal("6418.27"), 
+    "srednia" : NumberDecimal("6418.27")
+}
+{ 
+    "_id" : "RUB", 
+    "suma" : NumberDecimal("119749.15"), 
+    "srednia" : NumberDecimal("4989.547916666666666666666666666667")
+}
+{ 
+    "_id" : "XPF", 
+    "suma" : NumberDecimal("4759.07"), 
+    "srednia" : NumberDecimal("4759.07")
+}
+{ 
+    "_id" : "HNL", 
+    "suma" : NumberDecimal("16514.59"), 
+    "srednia" : NumberDecimal("5504.863333333333333333333333333333")
+}
+{ 
+    "_id" : "MXN", 
+    "suma" : NumberDecimal("50229.00"), 
+    "srednia" : NumberDecimal("5022.90")
+}
+{ 
+    "_id" : "VEF", 
+    "suma" : NumberDecimal("8333.28"), 
+    "srednia" : NumberDecimal("4166.64")
+}
+{ 
+    "_id" : "YER", 
+    "suma" : NumberDecimal("13712.50"), 
+    "srednia" : NumberDecimal("4570.833333333333333333333333333333")
+}
+{ 
+    "_id" : "BGN", 
+    "suma" : NumberDecimal("21200.88"), 
+    "srednia" : NumberDecimal("5300.22")
+}
+{ 
+    "_id" : "EUR", 
+    "suma" : NumberDecimal("245091.47"), 
+    "srednia" : NumberDecimal("4901.8294")
+}
+{ 
+    "_id" : "CAD", 
+    "suma" : NumberDecimal("58375.60"), 
+    "srednia" : NumberDecimal("5306.872727272727272727272727272727")
+}
+{ 
+    "_id" : "SRD", 
+    "suma" : NumberDecimal("5286.68"), 
+    "srednia" : NumberDecimal("5286.68")
+}
+{ 
+    "_id" : "TZS", 
+    "suma" : NumberDecimal("7052.37"), 
+    "srednia" : NumberDecimal("3526.185")
+}
+{ 
+    "_id" : "RSD", 
+    "suma" : NumberDecimal("4276.56"), 
+    "srednia" : NumberDecimal("4276.56")
+}
+{ 
+    "_id" : "MAD", 
+    "suma" : NumberDecimal("3818.85"), 
+    "srednia" : NumberDecimal("3818.85")
+}
+{ 
+    "_id" : "GTQ", 
+    "suma" : NumberDecimal("5806.3"), 
+    "srednia" : NumberDecimal("5806.3")
+}
+{ 
+    "_id" : "ZWL", 
+    "suma" : NumberDecimal("5792.17"), 
+    "srednia" : NumberDecimal("5792.17")
+}
+{ 
+    "_id" : "AFN", 
+    "suma" : NumberDecimal("16755.49"), 
+    "srednia" : NumberDecimal("5585.163333333333333333333333333333")
+}
+{ 
+    "_id" : "MNT", 
+    "suma" : NumberDecimal("21715.61"), 
+    "srednia" : NumberDecimal("5428.9025")
+}
+{ 
+    "_id" : "GBP", 
+    "suma" : NumberDecimal("6149.19"), 
+    "srednia" : NumberDecimal("6149.19")
+}
+{ 
+    "_id" : "ALL", 
+    "suma" : NumberDecimal("3325.48"), 
+    "srednia" : NumberDecimal("3325.48")
+}
+{ 
+    "_id" : "MWK", 
+    "suma" : NumberDecimal("3574.42"), 
+    "srednia" : NumberDecimal("3574.42")
+}
+{ 
+    "_id" : "KYD", 
+    "suma" : NumberDecimal("3760.89"), 
+    "srednia" : NumberDecimal("3760.89")
+}
+{ 
+    "_id" : "BYR", 
+    "suma" : NumberDecimal("5095.79"), 
+    "srednia" : NumberDecimal("5095.79")
+}
+{ 
+    "_id" : "UAH", 
+    "suma" : NumberDecimal("40471.84"), 
+    "srednia" : NumberDecimal("5058.98")
+}
+{ 
+    "_id" : "NZD", 
+    "suma" : NumberDecimal("5328.46"), 
+    "srednia" : NumberDecimal("5328.46")
+}
+{ 
+    "_id" : "VND", 
+    "suma" : NumberDecimal("36160.26"), 
+    "srednia" : NumberDecimal("4520.0325")
+}
+{ 
+    "_id" : "MKD", 
+    "suma" : NumberDecimal("3835.05"), 
+    "srednia" : NumberDecimal("3835.05")
+}
+{ 
+    "_id" : "USD", 
+    "suma" : NumberDecimal("74680.98"), 
+    "srednia" : NumberDecimal("4978.732")
+}
+{ 
+    "_id" : "MMK", 
+    "suma" : NumberDecimal("4629.42"), 
+    "srednia" : NumberDecimal("4629.42")
+}
+{ 
+    "_id" : "ZAR", 
+    "suma" : NumberDecimal("11790.92"), 
+    "srednia" : NumberDecimal("3930.306666666666666666666666666667")
+}
+{ 
+    "_id" : "IQD", 
+    "suma" : NumberDecimal("4269.39"), 
+    "srednia" : NumberDecimal("4269.39")
+}
+{ 
+    "_id" : "RWF", 
+    "suma" : NumberDecimal("4632.88"), 
+    "srednia" : NumberDecimal("4632.88")
+}
