@@ -1,0 +1,46 @@
+{ 
+    "_id" : ObjectId("6282bd2f4143c56718ffd487"), 
+    "sex" : "Male", 
+    "first_name" : "Joseph", 
+    "last_name" : "Torres", 
+    "job" : "Staff Scientist", 
+    "email" : "jtorresrs@netvibes.com", 
+    "location" : {
+        "city" : "Shifo", 
+        "address" : {
+            "streetname" : "Manley", 
+            "streetnumber" : "5921"
+        }
+    }, 
+    "description" : "ac est lacinia nisi venenatis tristique fusce congue diam id ornare imperdiet sapien urna pretium nisl ut volutpat sapien", 
+    "height" : "179.65", 
+    "weight" : "68.46", 
+    "birth_date" : "1945-12-10T22:44:41Z", 
+    "nationality" : "China", 
+    "credit" : [
+        {
+            "type" : "americanexpress", 
+            "number" : "3549325274085474", 
+            "currency" : "IDR", 
+            "balance" : "5161.04"
+        }, 
+        {
+            "type" : "jcb", 
+            "number" : "3573128924792138", 
+            "currency" : "XOF", 
+            "balance" : "5456.04"
+        }, 
+        {
+            "type" : "americanexpress", 
+            "number" : "5437049474138608", 
+            "currency" : "SEK", 
+            "balance" : "5699.78"
+        }, 
+        {
+            "type" : "diners-club-international", 
+            "number" : "676212804646760104", 
+            "currency" : "CAD", 
+            "balance" : "4742.78"
+        }
+    ]
+}

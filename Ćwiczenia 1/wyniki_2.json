@@ -1,0 +1,40 @@
+{ 
+    "_id" : ObjectId("6282bd2f4143c56718ffd48e"), 
+    "sex" : "Female", 
+    "first_name" : "Jean", 
+    "last_name" : "Clark", 
+    "job" : "Research Associate", 
+    "email" : "jclarkrz@github.io", 
+    "location" : {
+        "city" : "Oroin Xibe", 
+        "address" : {
+            "streetname" : "Emmet", 
+            "streetnumber" : "51"
+        }
+    }, 
+    "description" : "commodo placerat praesent blandit nam nulla integer pede justo lacinia eget", 
+    "height" : "157.81", 
+    "weight" : "73.01", 
+    "birth_date" : "1991-03-05T23:42:19Z", 
+    "nationality" : "China", 
+    "credit" : [
+        {
+            "type" : "jcb", 
+            "number" : "676172742774390013", 
+            "currency" : "CNY", 
+            "balance" : "6157.79"
+        }, 
+        {
+            "type" : "diners-club-carte-blanche", 
+            "number" : "3584149938278515", 
+            "currency" : "CNY", 
+            "balance" : "3479.92"
+        }, 
+        {
+            "type" : "jcb", 
+            "number" : "3578574110910684", 
+            "currency" : "SEK", 
+            "balance" : "4270.01"
+        }
+    ]
+}
