@@ -1,0 +1,95 @@
+-1-
+MATCH (films:Movie)RETURN films ;
+
+-2-
+MATCH (actor:Person)-[:ACTED_IN]-(film:Movie) WHERE actor.name='Hugo Weaving' RETURN  actor,film ;
+
+-3-
+MATCH (actor:Person)-[:ACTED_IN]-(film:Movie)-[:DIRECTED]-(directors:Person) 
+WHERE actor.name='Hugo Weaving' 
+RETURN distinct directors ;
+
+-4-
+MATCH (hugo:Person)-[:ACTED_IN]-(film:Movie)-[:ACTED_IN]-(actors:Person) 
+WHERE hugo.name='Hugo Weaving' 
+RETURN distinct actors ;
+
+-5-
+MATCH (films:Movie)-[:ACTED_IN]-(actors:Person)-[:ACTED_IN]-(matrix:Movie)
+Where matrix.title CONTAINS 'Matrix'
+RETURN distinct films ;
+
+
+-6-
+MATCH (actors:Person)-[:ACTED_IN]-(films:Movie)
+RETURN  actors ,count(films) as ilosc_filmow ;
+
+
+-7-
+MATCH (writer:Person)-[:WROTE]-(films:Movie)-[:DIRECTED]-(director:Person)
+Where writer = director
+RETURN  writer ,films.title ;
+
+-8-
+MATCH (hugo:Person)-[:ACTED_IN]->(films:Movie)<-[:ACTED_IN]-(keanu:Person)
+Where hugo.name ='Hugo Weaving' and keanu.name = 'Keanu Reeves'
+RETURN films ;
+
+
+-9-
+Create(Captain:Movie {
+tagline: "First strike",
+title: "Captain America: The First Avenger",
+released: 2011
+  } )
+
+CREATE (n:Person {born: 1950, name: "Joe Johnston"});
+CREATE (n:Person {born: 1970, name: "Christopher Markus"});
+CREATE (n:Person {born: 1981, name: "Chris Evans"});
+CREATE (n:Person {born: 1948, name: "Samuel L. Jackson"});
+
+MATCH
+  (a:Person),
+  (b:Movie)
+WHERE a.name = 'Hugo Weaving' AND b.title = 'Captain America: The First Avenger'
+CREATE (a)-[r:ACTED_IN]->(b)
+RETURN type(r)
+
+MATCH
+  (a:Person),
+  (b:Movie)
+WHERE a.name = 'Chris Evans' AND b.title = 'Captain America: The First Avenger'
+CREATE (a)-[r:ACTED_IN]->(b)
+RETURN type(r)
+
+MATCH
+  (a:Person),
+  (b:Movie)
+WHERE a.name = 'Samuel L. Jackson' AND b.title = 'Captain America: The First Avenger'
+CREATE (a)-[r:ACTED_IN]->(b)
+RETURN type(r)
+
+MATCH
+  (a:Person),
+  (b:Movie)
+WHERE a.name = 'Joe Johnston' AND b.title = 'Captain America: The First Avenger'
+CREATE (a)-[r:DIRECTED]->(b)
+RETURN type(r)
+
+
+MATCH
+  (a:Person),
+  (b:Movie)
+WHERE a.name = 'Christopher Markus' AND b.title = 'Captain America: The First Avenger'
+CREATE (a)-[r:WROTE]->(b)
+RETURN type(r)
+
+
+MATCH (m:Movie)-[:ACTED_IN]-(a:Person), (m:Movie)-[:DIRECTED]-(d:Person), (m:Movie)-[:WROTE]-(w:Person)
+Where m.title = 'Captain America: The First Avenger'
+RETURN m,a,d,w 
+
+
+
+
+
