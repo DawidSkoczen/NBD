@@ -1,3 +1,0 @@
-MATCH (hugo:Person)-[:ACTED_IN]->(films:Movie)<-[:ACTED_IN]-(keanu:Person)
-Where hugo.name ='Hugo Weaving' and keanu.name = 'Keanu Reeves'
-RETURN films ;

@@ -1,1 +1,0 @@
-MATCH (actor:Person)-[:ACTED_IN]-(film:Movie) WHERE actor.name='Hugo Weaving' RETURN  actor,film ;

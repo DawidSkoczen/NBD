@@ -1,3 +1,0 @@
-MATCH (writer:Person)-[:WROTE]-(films:Movie)-[:DIRECTED]-(director:Person)
-Where writer = director
-RETURN  writer ,films.title ;

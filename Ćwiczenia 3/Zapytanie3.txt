@@ -1,3 +1,0 @@
-MATCH (actor:Person)-[:ACTED_IN]-(film:Movie)-[:DIRECTED]-(directors:Person) 
-WHERE actor.name='Hugo Weaving' 
-RETURN distinct directors ;

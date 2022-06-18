@@ -1,3 +1,0 @@
-MATCH (films:Movie)-[:ACTED_IN]-(actors:Person)-[:ACTED_IN]-(matrix:Movie)
-Where matrix.title CONTAINS 'Matrix'
-RETURN distinct films ;
