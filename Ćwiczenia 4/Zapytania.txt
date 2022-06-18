@@ -1,0 +1,48 @@
+-1-
+MATCH (start:town {name: "Darjeeling"}), 
+(cel:peak {name: "Sandakphu"}) 
+MATCH p = allShortestPaths((start)-[*]->(target)) RETURN p
+
+-2-
+MATCH (start:town {name: "Darjeeling"}), (cel:peak {name: "Sandakphu"}), p = allShortestPaths((start)-[*]->(cel))
+WITH p, relationships(p) as rel
+WHERE ALL (r in rel WHERE r.winter = "true")
+RETURN p, rel
+
+-3-
+MATCH p = (source:town {name: "Darjeeling"})-[r*]->(target:peak {name: "Sandakphu"})
+UNWIND r as rel
+WITH p, COLLECT(rel.distance) AS distances
+WITH p, reduce(acc = 0, d in distances | acc + d) as distance
+RETURN p, distance
+ORDER BY distance ASC
+
+-4-
+MATCH p = (start:town {name: "Darjeeling"})-[r:twowheeler]->(cel)
+WHERE ALL (r IN relationships(p) WHERE r.summer = "true")
+RETURN cel
+
+//tutaj zapytanie nic nie zwróciło
+
+-5-
+MATCH (a:Airport)<-[:ORIGIN]-(f:Flight)
+WITH a, count(f) as loty
+RETURN a, loty
+ORDER BY loty 
+
+
+-9-
+MATCH (a:Airport)-[:DESTINATION|:ORIGIN]-(f:Flight)
+RETURN f.airline, COUNT(DISTINCT a) AS cityCount
+ORDER BY cityCount
+
+
+
+-10-
+match p=(start: Airport)<-[:ORIGIN]-(flightOne:Flight)-[:DESTINATION]->(mid:Airport)<-[:ORIGIN]-(flightTwo:Flight)-[:DESTINATION]->(dest:Airport), (flightOne)-[:ASSIGN]-(t1:Ticket), (flightTwo)-[:ASSIGN]-(t2:Ticket)
+WHERE start <> dest
+WITH p, t1.price + t2.price as cena
+return p, cena
+ORDER BY cena
+LIMIT 1
+
