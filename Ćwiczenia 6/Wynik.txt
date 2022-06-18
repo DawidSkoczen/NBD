@@ -1,0 +1,4 @@
+s25883@ubuntu:~/Desktop$ python3 cw6_s25883.py
+Data from osoba key: {'imie': 'Rafal', 'nazwisko': 'Skoczen', 'wzrost': 170, 'waga': 80}
+Data from osoba key after modification:  {'imie': 'Rafal', 'nazwisko': 'Skoczen', 'wzrost': 170, 'waga': 60}
+Try to get data after delete osoba:  None
