@@ -1,0 +1,27 @@
+1. curl -XPUT -H "Content-Type: apllication/json" -d '{"imie":"Rafal", "nazwisko":"Skoczen", "wzrost":"170, "waga":80}' http://localhost:8098/buckets/s25883/keys/Rafal -i
+1. curl -XPUT -H "Content-Type: apllication/json" -d '{"imie":"Ewa", "nazwisko":"Kowalska", "wzrost":"180, "waga":70}' http://localhost:8098/buckets/s25883/keys/Ewa -i
+1. curl -XPUT -H "Content-Type: apllication/json" -d '{"imie":"Bartosz", "nazwisko":"Nowicki", "wzrost":"178, "waga":90}' http://localhost:8098/buckets/s25883/keys/Bartosz -i
+1. curl -XPUT -H "Content-Type: apllication/json" -d '{"imie":"Marcin", "nazwisko":"Moniek", "wzrost":"157, "waga":60}' http://localhost:8098/buckets/s25883/keys/Marcin -i
+1. curl -XPUT -H "Content-Type: apllication/json" -d '{"imie":"Jan", "nazwisko":":Lewandowski", "wzrost":"179, "waga":66}' http://localhost:8098/buckets/s25883/keys/Jan -i
+
+
+2. curl -i http://localhost:8098/buckets/s25883/keys/Jan
+
+
+3. curl -i -XPUT -H "Content-Type: application/json" -d '{"imie":"Marcin", "nazwisko":"Moniek", "wzrost":"157, "waga":60, "zonaty":true}' http://localhost:8098/buckets/s25883/keys/Marcin -i
+
+4. curl -i -XPUT -H "Content-Type: application/json" -d '{"imie":"Ewa", "nazwisko":"Kowalska", "wzrost":"180}' http://localhost:8098/buckets/s25883/keys/Ewa -i
+
+5. curl -i -XPUT -H "Content-Type: application/json" -d '{"imie":"Rafal", "nazwisko":"Skoczen", "wzrost":"170, "waga":100}' http://localhost:8098/buckets/s25883/keys/Rafal
+
+6. curl -i -XDELETE http://localhost:8098/buckets/s25883/keys/Marcin -i
+
+7. curl -i -XGET http://localhost:8098/buckets/s25883/keys/Edward-i
+
+8. curl -i -XPOST -H "Content-Type: application/json" -d '{"imie":"Mateusz", "nazwisko":"Morawski", "wzrost":"170, "waga":100}' http://localhost:8098/buckets/s25883/keys -i
+
+9. curl -i -XGET http://localhost:8098/buckets/s25883/keys/JcsX7bbVEE2CFC1Sh3VgVeJuKtq
+
+10. curl -i -XDELETE http://localhost:8098/buckets/s25883/keys/JcsX7bbVEE2CFC1Sh3VgVeJuKtq
+
+

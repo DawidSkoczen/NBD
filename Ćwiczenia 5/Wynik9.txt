@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8ypz/fvLZJiUyMKgLZjAlMuaxMiwyUbrDlwUA
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s25883>; rel="up"
+Last-Modified: Sat, 18 Jun 2022 11:36:02 GMT
+ETag: "5OBsUtf5lVzDmaQ5R2vZMB"
+Date: Sat, 18 Jun 2022 11:37:12 GMT
+Content-Type: application/json
+Content-Length: 68
+
+{"imie":"Mateusz", "nazwisko":"Morawski", "wzrost":"170, "waga":100}

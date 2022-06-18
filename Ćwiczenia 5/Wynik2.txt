@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8ypz/fvJZm/xnYFAXzGBKZMxjZeg0ULrDlwUA
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s25883>; rel="up"
+Last-Modified: Sat, 18 Jun 2022 11:18:33 GMT
+ETag: "7OPLRJTvPEWVmChvF2Iih4"
+Date: Sat, 18 Jun 2022 11:19:32 GMT
+Content-Type: apllication/json
+Content-Length: 67
+
+{"imie":"Jan", "nazwisko":":Lewandowski", "wzrost":"179, "waga":66}
